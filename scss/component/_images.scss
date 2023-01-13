@@ -1,0 +1,16 @@
+.img- {
+    &avatar {
+      @include img;
+      @include img-width-margin-top;
+      max-height: 100%;
+    }
+    &frame {
+      @include img;
+      @include img-width-margin-top;
+      padding: 13px;
+      border: 1px solid $color-frame;
+    }
+    &logo {
+      @include img;
+    }
+  }
